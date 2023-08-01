@@ -28,3 +28,10 @@ Image Scraper Web App is a simple Flask-based web application that enables users
     pip install -r requirements.txt
    ```
 3. Open and execute ```app.py``` file
+
+
+# Contributing
+If you find a bug or have a feature request, please open an issue on this repository. Pull requests are also welcome.
+
+# License
+This Repository licensed under the MIT License. See the LICENSE file for more information.
