@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SCRAP YOUR IMAGE</h1>
+        </header>
+        <main>
+            <div class="search-box">
+                <h2>Search for Images</h2>
+                <div class="input-container">
+                    <form action="/review" method="POST">
+                        <input type="text" name="content" placeholder="Enter your search query">
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
+            </div>
+        </main>
+        
+    </div>
+</body>
+</html>
